@@ -1,0 +1,11 @@
+.travels {
+  padding-top: 100px;
+  margin-inline: auto;
+  max-width: 600px;
+}
+
+.travelsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
