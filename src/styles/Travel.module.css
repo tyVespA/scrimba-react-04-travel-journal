@@ -1,0 +1,45 @@
+.travelContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.imageUrl {
+  max-width: 250px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.countrySection {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.countrySection img {
+  width: 11.5px;
+}
+
+.location {
+  text-transform: uppercase;
+  font-family: Inter;
+  letter-spacing: 0.17em;
+  margin-right: 15px;
+  font-size: 1.1rem;
+}
+
+.countrySection a {
+  color: #918e9b;
+}
+
+.title {
+  font-size: 2.25rem;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.date {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
